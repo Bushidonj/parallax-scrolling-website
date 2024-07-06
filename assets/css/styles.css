@@ -177,14 +177,14 @@ img {
   z-index: var(--z-fixed);
 }
 
-/* .home__parallax-img4 {
+.home__parallax-img4 {
   background-image: url("/assets/img/person.png");
   z-index: var(--z-fixed);
   position: absolute;
   width: 1950px;
   bottom: -100px;
   left: -70px;
-} */
+}
 
 .home__title,
 .home__subtitle {
