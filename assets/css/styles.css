@@ -180,14 +180,18 @@ img {
 .home__parallax-img4 {
   background-image: url("/assets/img/person.png");
   z-index: var(--z-fixed);
-  position: absolute;
-  width: 1950px;
-  bottom: -100px;
-  left: -70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  max-width: 650px;
+  position: absolute; /* Ou use absolute se necessário */
+  bottom: -390px;
 }
 
 .home__title,
-.home__subtitle {
+.home__subtitle,
+.home__subtitleTeste {
   position: absolute;
   width: 100%;
   display: -webkit-box;
@@ -210,8 +214,16 @@ img {
   font-size: var(--h2-font-size);
   font-weight: bold;
   z-index: var(--z-tooltip);
+  background-color: pink;
 }
 
+.home__subtitleTeste {
+  top: 44%;
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+  z-index: var(--z-tooltip);
+  background-color: pink;
+}
 /*===== SECTION =====*/
 .l-section {
   background-color: var(--dark-color);
@@ -272,10 +284,16 @@ img {
     display: none;
   }
   .home__title {
-    top: 27%;
+    top: 10%;
+    background-color: red;
   }
   .home__subtitle {
     top: 50%;
+    background-color: orange;
+  }
+  .home__subtitleTeste {
+    top: 60%;
+    background-color: blue;
   }
   .section {
     -webkit-box-orient: horizontal;

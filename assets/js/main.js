@@ -24,6 +24,7 @@ gsap.from('.nav__item', {opacity: 0, duration: 3, delay: .7, y: 35, ease:'expo.o
 /*Text*/
 gsap.from('.home__title', {opacity:0, duration: 3, delay: 1.3, y: 35, ease:'expo.out'});
 gsap.from('.home__subtitle', {opacity:0, duration: 3, delay: 1.1 , y: 35, ease:'expo.out'});
+gsap.from('.home__subtitleTeste', {opacity:0, duration: 3, delay: 1.1 , y: 35, ease:'expo.out'});
 
 /*====== SCROLL REVEAL SECTION ======*/
 const sr = ScrollReveal({
